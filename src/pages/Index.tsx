@@ -1,13 +1,11 @@
-import Hero from "@/components/Hero";
-import ProductCatalog from "@/components/ProductCatalog";
-import PaymentMethods from "@/components/PaymentMethods";
+import TrollSite from "@/components/TrollSite";
+import AnnoyingAds from "@/components/AnnoyingAds";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-slate-900">
-      <Hero />
-      <ProductCatalog />
-      <PaymentMethods />
+    <div className="min-h-screen bg-gradient-to-br from-red-500 via-yellow-400 to-blue-500 animate-pulse">
+      <TrollSite />
+      <AnnoyingAds />
     </div>
   );
 };
